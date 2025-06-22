@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header div {
+    display: flex;
+
+}
+
+body {
+    margin-bottom: 0;
+}
+
+.top {
+    background: linear-gradient(to bottom, black, transparent);
+    display: flex;
+    color: white;
+
+    padding-top: 10px;
+}
+
+
+
+[alt="Safia logo"] {
+    border-radius: 35px;
+    margin-left: 60px;
+    width: 55px;
+    margin-right: 50px;
+}
+
+select {
+    background-color: rgba(132, 126, 126, 0);
+    border: none;
+    color: rgb(249, 249, 249);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.one {
+    gap: 12px;
+    margin-right: 240px;
+    align-items: center;
+    font-weight: 650;
+    font-family: arial;
+    font-size: 18px
+}
+
+.two {
+    gap: 23px;
+    font-size: 18px;
+    align-items: center;
+    margin-right: 140px;
+    font-family: arial;
+}
+
+.three {
+    gap: 20px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: arial;
+}
+
+[alt="Search icon"] {
+    width: 20px;
+    margin-left: 13px;
+}
+
+[alt="Menu icon"] {
+    width: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.navbar {
+    margin-top: 770px;
+    background-color: rgb(185, 164, 135);
+    height: 120px;
+    display: flex;
+    gap: 150px;
+}
+
+.navbar img {
+    width: 60px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbar p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu {
+    margin-left: 400px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 30px;
+}
+
+.new-products img {
+    width: 300px;
+    border-radius: 50%;
+
+}
+
+.price {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 230px;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: arial;
+    ;
+}
+
+.contact {
+    background-color: #2a1c1ff9;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    display: flex;
+    gap: 190px;
+    padding: 50px;
+    line-height: 40px;
+    margin-bottom: 60px;
+
+}
+
+[alt="safia logo"] {
+    border-radius: 60%;
+
+    width: 170px;
+}
+
+[alt="contact info"] {
+    margin-left: 120px;
+}
